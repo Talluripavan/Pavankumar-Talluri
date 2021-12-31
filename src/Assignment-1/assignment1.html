@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title></title>
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -11,11 +12,34 @@
 <body>
 	<div id="container">
 
-	<!-- This is just a comment. Ignore this line.-->
-	<!-- Start your code from here -->
-	
-	
-	<!-- End your code -->
+		<!-- This is just a comment. Ignore this line.-->
+		<!-- Start your code from here -->
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li>List 1</li>
+					<li>List 2</li>
+					<li>List 3</li>
+					<li>
+						<ul>
+							<li>List 3.1</li>
+							<li>List 3.2</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="column">
+				<img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="house" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<img src="https://www.w3schools.com/html/img_girl.jpg" alt="spring" />
+			</div>
+			<div class="column">
+				<h1>Hello 10X Academy</h1>
+			</div>
+		</div>
 
 	</div>
 
@@ -25,17 +49,18 @@
 
 </body>
 <script>
-/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
+	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
 	// Get HTML head element
-	var head = document.getElementsByTagName('HEAD')[0]; 
+	var head = document.getElementsByTagName('HEAD')[0];
 	// Create new link Element
 	var link = document.createElement('link');
 	// set the attributes for link element 
-	link.rel = 'stylesheet'; 
+	link.rel = 'stylesheet';
 	link.type = 'text/css';
-	link.href = './assignment1.css?v='+ new Date().getTime(); 
+	link.href = './assignment1.css?v=' + new Date().getTime();
 	// Append link element to HTML head
-	head.appendChild(link); 
-	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
-</script> 
+	head.appendChild(link);
+	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */
+</script>
+
 </html>
