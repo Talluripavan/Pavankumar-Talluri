@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "sh ./jake.sh karma & sh ./watch.sh loose=true"
+    
   },
   "devDependencies": {
     "browserify": "^14.1.0",
