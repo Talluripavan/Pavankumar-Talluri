@@ -1,7 +1,62 @@
 /* Our CSS file. */
 
-
-.container, .content {
+#container{
 width: 100%;
 height: 100%;
+}
+
+.c1{
+    background-color: #F2F2F2;
+    height: 50vh;
+    width: 100%;
+    display: inline-block;
+}
+.c2{
+    float: left;
+    border: 0px solid black;
+    width: 50%;
+    margin-top: 50px;
+}
+.c3{
+    float: right;
+    width: 50%;
+    height: 35vh;
+    margin-top: 50px;
+}
+#render-wiki{
+    height: 100%;
+    width: 100%;
+}
+#render-dictionary{
+    height: 100%;
+    width: 99%;
+}
+.btn{
+    float: left;
+    margin-left: 260px;
+    background-color: cadetblue;
+}
+.btn1{
+    position: center;
+    background-color: cadetblue;
+}
+.c11{
+    background-color: #F2F2F2;
+    height: 60vh;
+    width: 100%;
+}
+.c21{
+    float: left;
+    border: 0px solid black;
+    width: 100%;
+    height:30vh;
+    margin-top: 0px;
+    
+}
+.c31{
+    float: left;
+    width: 100%;
+    height: 25vh;
+    margin-top: 2px;
+   
 }
