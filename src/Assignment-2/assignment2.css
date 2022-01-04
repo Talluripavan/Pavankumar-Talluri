@@ -1,7 +1,91 @@
 /* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
+}
+ul li{
+list-style: none;
+}
+.headerform {
+background-color:darkolivegreen;
+height: 100px;
+border: darkcyan;
+border: 5px solid brown;
+}
+.logoclass{
+height: 100px;
+width: 100px;
+}
+
+.Searchclass{
+display: inline-block;
+float: right;
+height: 20px;
+margin-top: 30px;
+margin-right: 20px;
+
+
+}
+header navbar nav ul{
+text-align: center;
+border: 5px solid brown;
+padding: 10px;
+}
+header navbar nav ul li{
+list-style: none;
+display: inline-block;
+margin: 0px 3px;
+}
+
+#right-sidebar-menu {
+    border: 1px solid;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 50%;
+  }
+  .left-sidebar {
+    border: 1px solid;
+    float: left;
+    height: 40vh;
+    margin: 10px;
+  }
+  .column {
+    float: left;
+    padding: 5px;
+  }
+ 
+
+.page-content {
+    width: 100%;
+    display: inline-block;
+    margin: 10px;
+  }
+ 
+
+.post-img {
+    float: left;
+    height: 25vh;
+    margin: 10px;
+    width: 200px;
+  }
+
+.aside ul li{
+margin: 10px 0px;
+}
+.right-sidebar-menu ul li{
+text-shadow: 2px;
+}
+.main-content-section .firstline{
+width: 460px;
+border: 1px solid black;
+height: 300px;
+}
+.firstline .post-img{
+display: inline-block;
+}
+#page-footer{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
 }
